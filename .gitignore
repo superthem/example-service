@@ -1,0 +1,75 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Compiled source files
+*.class
+
+# Logs
+logs/
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs, core dumps, and heap dumps
+hs_err_pid*
+replay_pid*
+core.*
+
+# Maven
+target/
+*.war
+*.ear
+!src/main/**/target/
+!src/test/**/target/
+mvnw
+mvnw.cmd
+/.mvn/
+
+# Gradle
+.gradle/
+build/
+!src/main/**/build/
+!src/test/**/build/
+.gradle/
+build/
+
+# Dependency directories
+**/out/
+lib/
+.libs/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Windows
+*.bat
+
+# Linux
+*.sh
+
+# macOS
+*.DS_Store
+
+.flattened-pom.xml
+*/.flattened-pom.xml
