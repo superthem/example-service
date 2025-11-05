@@ -1,53 +1,44 @@
 #env:all
-mv.base.package=com.magicvector.superthem
+mv.base.package=com.exampleaaa.exampleeee
 spring.application.name=superthem-service
+swagger.scan.base.package=com.exampleaaa.exampleeee
 server.port=10083
 spring.mvc.pathmatch.matching-strategy=ant_path_matcher
 spring.http.encoding.charset=UTF-8
 spring.http.encoding.enabled=true
 spring.http.encoding.force=true
-stock.black.list=SH900953,SH600321,
-mv.redis.enabled=true
-#mv.mongomq.mongodb.uri=mongodb://admin:magicvector888@home.magicvector.cn:27017,jhhy.magicvector.cn:27017/prod?authSource=admin&replicaSet=superthem
+#mv.mongomq.mongodb.uri=
 spring.main.allow-circular-references=true
 
+mv.redis.enabled=true
 
-#AI_API_KEY=sk-mkitybqlL5Gds7pnhbdI0Hruc4GJWNE24fPAP3me7Okg3f4N
-#magicgpt.config.llm.api.openai.chat.url.mirror=https://api.openai-proxy.org/v1/chat/completions
-
-#env:local
-mv.redis.host=127.0.0.1
-mv.redis.port=6379
-mv.redis.password=Pop888%@jK
-swagger.scan.base.package=com.magicvector.superthem
 
 # Mybatis基础配置
 mybatis-plus.configuration.call-setters-on-nulls=true
 mybatis-plus.configuration.jdbc-type-for-null=null
-mybatis-plus.type-aliases-package=com.magicvector.superthem.dal.dpo
+mybatis-plus.type-aliases-package=com.exampleaaa.exampleeee.dal.dpo
 mybatis-plus.mapper-locations=classpath:mapper/*.xml
 mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.slf4j.Slf4jImpl
 
+
+
+#env:local
+mv.redis.host=127.0.0.1
+#mv.redis.port=
+#mv.redis.password=
 # 数据库连接配置
-spring.datasource.url=jdbc:mysql://home.magicvector.cn:3306/superthem?serverTimezone=GMT%2B8&characterEncoding=utf-8
-spring.datasource.username=root
-spring.datasource.password=magicvector888
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 
 #env:prod
-spring.datasource.url=jdbc:mysql://192.168.2.111:3306/su_stock?serverTimezone=GMT%2B8&characterEncoding=utf-8
-spring.datasource.username=root
-spring.datasource.password=magicvector888
+mv.redis.host=
+#mv.redis.port=
+#mv.redis.password=
+# 数据库连接配置
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-swagger.scan.base.package=com.magicvector.superthem
-mv.redis.host=127.0.0.1
-mv.redis.port=6379
-mv.redis.password=Pop888%@jK
-job.enabled=false
-
-
-#env:all
-AI_API_KEY=sk-230d22d8d1fe4a53a0fc5c042c6dba33
-llm.api.chat.url=https://api.deepseek.com/chat/completions
-feishu.notify.url=https://open.feishu.cn/open-apis/bot/v2/hook/9829c5c4-1c9a-4200-b7cc-0b85167b0644
