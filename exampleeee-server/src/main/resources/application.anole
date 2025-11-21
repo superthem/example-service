@@ -10,7 +10,7 @@ spring.http.encoding.force=true
 #mv.mongomq.mongodb.uri=
 spring.main.allow-circular-references=true
 
-mv.redis.enabled=true
+mv.redis.enabled=false
 
 
 # Mybatis基础配置
