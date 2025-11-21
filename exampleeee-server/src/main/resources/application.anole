@@ -1,6 +1,6 @@
 #env:all
 mv.base.package=com.exampleaaa.exampleeee
-spring.application.name=superthem-service
+spring.application.name=exampleeee-service
 swagger.scan.base.package=com.exampleaaa.exampleeee
 server.port=10083
 spring.mvc.pathmatch.matching-strategy=ant_path_matcher
