@@ -1,7 +1,7 @@
 package com.exampleaaa.exampleeee.dal.dpo;
 
+import cn.magicvector.common.service.model.BaseEntity;
 import com.baomidou.mybatisplus.annotation.*;
-import com.magicvector.common.service.model.BaseEntity;
 import lombok.Data;
 
 import java.io.Serializable;

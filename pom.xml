@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.magicvector</groupId>
+        <groupId>cn.magicvector.magicvector</groupId>
         <artifactId>magic-parent</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.4</version>
     </parent>
-
+    <groupId>com.exampleaaa</groupId>
     <artifactId>exampleeee-service</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
@@ -25,17 +25,6 @@
     </dependencies>
 
     <repositories>
-        <!-- 对应 magicvector-maven-snapshots -->
-        <repository>
-            <id>magicvector-maven-snapshots</id>
-            <url>https://magicvector.cn</url>
-            <releases>
-                <enabled>false</enabled> <!-- 快照库关闭发布版 -->
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>

@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
+        <groupId>com.exampleaaa</groupId>
         <artifactId>exampleeee-service</artifactId>
-        <groupId>com.magicvector</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -14,45 +14,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.magicvector</groupId>
+            <groupId>com.exampleaaa</groupId>
             <artifactId>exampleeee-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.13.1</version> <!-- 使用最新的稳定版本 -->
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>weixin-java-miniapp</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>weixin-java-pay</artifactId>
-            <version>4.5.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>weixin-java-cp</artifactId>
-            <version>4.7.0</version>
-        </dependency>
-
-
-        <dependency>
-            <groupId>com.alipay.sdk</groupId>
-            <artifactId>alipay-sdk-java</artifactId>
-            <version>4.38.149.ALL</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.magicvector</groupId>
+            <groupId>cn.magicvector.magicvector</groupId>
             <artifactId>service-common</artifactId>
             <exclusions>
                 <exclusion>
